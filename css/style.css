@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient(to right, #e6f7ff, #87CEEB);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body {
 
 header {
     position: relative;
-    background: linear-gradient(to right, #e6f7ff, #87CEEB);
+    /* background: linear-gradient(to right, #e6f7ff, #87CEEB); */
     /* Yellow */
     color: #003366;
     /* Dark blue text */
@@ -49,7 +50,6 @@ h1 span {
 }
 
 nav {
-    background-color: #0066cc;
     /* Darker blue */
     padding: 15px 10px;
     text-align: center;
@@ -64,7 +64,7 @@ nav a {
     padding: 10px 20px;
     margin: 5px 10px;
     border-radius: 5px;
-    background-color: #0080ff;
+    background-color: #003366;
     /* Lighter blue */
 }
 
@@ -108,45 +108,6 @@ nav a:hover {
     font-family: 'Rubik Moonrocks', sans-serif;
 }
 
-.shine {
-    position: absolute;
-    background-color: transparent;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    animation: glitter 2s infinite linear;
-}
-
-.gold {
-    background-color: gold;
-}
-
-.small {
-    width: 1px;
-    height: 1px;
-}
-
-.medium {
-    width: 2px;
-    height: 2px;
-}
-
-.large {
-    width: 3px;
-    height: 3px;
-}
-
-@keyframes glitter {
-    0% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50% {
-        transform: scale(1.2);
-        opacity: 1;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
+.nice-selected {
+    background-image: url("../images/golden.jpg");
 }
