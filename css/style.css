@@ -111,3 +111,64 @@ nav a:hover {
 .nice-selected {
     background-image: url("../images/golden.jpg");
 }
+
+/* .card {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card img {
+    width: 90%;
+    height: auto;
+    
+} */
+
+.card {
+    border: 1px solid #ddd;
+    /* Add a border for separation */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
+    overflow: hidden;
+    /* Hide overflow content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+    margin: 16px;
+    /* Add some margin for spacing between cards */
+}
+
+.card img {
+    width: 100%;
+    /* Make the image fill the container width */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd;
+    /* Add a border at the bottom of the image */
+}
+
+.card p {
+    padding: 12px;
+    /* Add padding to paragraphs for spacing */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Style the title differently if needed */
+.card p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style the rating and description */
+.card p:nth-child(2),
+.card p:nth-child(3) {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Optional: Hover effect for a subtle interaction */
+.card:hover {
+    transform: scale(1.05);
+    /* Scale the card on hover */
+    transition: transform 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+}
