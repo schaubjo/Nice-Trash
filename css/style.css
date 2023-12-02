@@ -167,3 +167,13 @@ nav a:hover {
     transition: transform 0.3s ease-in-out;
     /* Add a smooth transition effect */
 }
+
+@media screen and (min-width: 768px) {
+    .items {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {}
