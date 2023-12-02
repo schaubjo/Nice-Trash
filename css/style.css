@@ -1,5 +1,4 @@
 body {
-    background: linear-gradient(to right, #e6f7ff, #87CEEB);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,11 +6,17 @@ body {
     /* Light blue background */
 }
 
+.nice {
+    background: linear-gradient(to right, #e6f7ff, #87CEEB);
+}
+
+.trash {
+    background: linear-gradient(to right, #A9A9A9, #FF2400);
+}
+
 header {
     position: relative;
     /* background: linear-gradient(to right, #e6f7ff, #87CEEB); */
-    /* Yellow */
-    color: #003366;
     /* Dark blue text */
     text-align: center;
     padding: 30px 0;
@@ -36,7 +41,7 @@ h1 a {
 }
 
 h1 a:hover {
-    color: gold;
+
     /* Gold color on hover */
 }
 
@@ -104,12 +109,29 @@ nav a:hover {
     font-family: 'Pacifico', cursive;
 }
 
+.nice-header:hover {
+    color: gold;
+}
+
 .trash-header {
     font-family: 'Rubik Moonrocks', sans-serif;
 }
 
+.trash-header:hover {
+    color: darkred;
+}
+
 .nice-selected {
     background-image: url("../images/golden.jpg");
+}
+
+.trash-selected {
+    background-color: darkred;
+}
+
+nav a.trash-selected:hover,
+nav a.trash-back:hover {
+    background-color: rgba(128, 0, 0, 0.8);
 }
 
 .items {
@@ -166,6 +188,14 @@ nav a:hover {
     /* Scale the card on hover */
     transition: transform 0.3s ease-in-out;
     /* Add a smooth transition effect */
+}
+
+.trash-color {
+    color: black;
+}
+
+.trash-back {
+    background-color: black;
 }
 
 @media screen and (min-width: 768px) {
