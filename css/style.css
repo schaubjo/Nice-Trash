@@ -40,10 +40,6 @@ h1 a {
     font-size: 64px;
 }
 
-h1 a:hover {
-
-    /* Gold color on hover */
-}
 
 h1 span {
     content: '/';
@@ -196,6 +192,16 @@ nav a.trash-back:hover {
 
 .trash-back {
     background-color: black;
+}
+
+.trash-card {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.trash-card img {
+    border-bottom: 1px solid black;
 }
 
 @media screen and (min-width: 768px) {
