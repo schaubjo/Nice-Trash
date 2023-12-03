@@ -204,6 +204,17 @@ nav a.trash-back:hover {
     border-bottom: 1px solid black;
 }
 
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media screen and (min-width: 768px) {
     .items {
         display: grid;
