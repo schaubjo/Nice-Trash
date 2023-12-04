@@ -128,7 +128,7 @@ nav a.trash-back:hover {
     /* Rounded corners for a modern look */
     overflow: hidden;
     /* Hide overflow content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8);
     /* Add a subtle box shadow for depth */
     margin: 16px;
     /* Add some margin for spacing between cards */
